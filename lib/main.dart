@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //final wordPair = WordPair.random();
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Startup Name generation',
       home: RandomWords(),
     );
